@@ -18,7 +18,7 @@ namespace UWPPOC_nice_name.ViewModels
             }
         }
 
-        string _Value = "Gas";
+        string _Value = "No Gas No Sugar";
         public string Value { get { return _Value; } set { Set(ref _Value, value); } }
 
         public override async Task OnNavigatedToAsync(object parameter, NavigationMode mode, IDictionary<string, object> suspensionState)
